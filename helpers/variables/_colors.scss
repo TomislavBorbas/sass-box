@@ -1,32 +1,23 @@
-//#######################################
-//## PREDEFINED COLORS ##################
-//#######################################
+// Default colors
+$white: #fff !default;
+$black: #000 !default;
 
-//Black
-$black-100: rgba(0, 0, 0, 1) !default;
-$black-90: rgba(0, 0, 0, 0.9) !default;
-$black-80: rgba(0, 0, 0, 0.8) !default;
-$black-70: rgba(0, 0, 0, 0.7) !default;
-$black-60: rgba(0, 0, 0, 0.6) !default;
-$black-50: rgba(0, 0, 0, 0.5) !default;
-$black-40: rgba(0, 0, 0, 0.4) !default;
-$black-30: rgba(0, 0, 0, 0.3) !default;
-$black-20: rgba(0, 0, 0, 0.2) !default;
-$black-10: rgba(0, 0, 0, 0.1) !default;
-$black-0: rgba(0, 0, 0, 0) !default;
+// Text colors  // We will use primary, secondary....
+$color-text: $white;
 
-//White
-$white-100: rgba(255, 255, 255, 1) !default;
-$white-90: rgba(255, 255, 255, 0.9) !default;
-$white-80: rgba(255, 255, 255, 0.8) !default;
-$white-70: rgba(255, 255, 255, 0.7) !default;
-$white-60: rgba(255, 255, 255, 0.6) !default;
-$white-50: rgba(255, 255, 255, 0.5) !default;
-$white-40: rgba(255, 255, 255, 0.4) !default;
-$white-30: rgba(255, 255, 255, 0.3) !default;
-$white-20: rgba(255, 255, 255, 0.2) !default;
-$white-10: rgba(255, 255, 255, 0.1) !default;
-$white-0: rgba(255, 255, 255, 0) !default;
+// Background colors  // We will use primary, secondary....
+$color-background: $white;
 
-$white: #ffffff !default;
-$black: #000000 !default;
+// Borders
+$color-borders: $white;
+
+// Utility colors // define based on project after Monika defines it
+$color-warning: $white;
+$color-success: $white;
+$color-info: $white;
+$color-error: $white;
+
+// Opacity for background will be solved on next way,
+// first value defines which color is used
+// second value defines opacity percetange
+// background: rgba($white,.6)

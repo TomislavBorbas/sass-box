@@ -5,3 +5,12 @@
   &:-ms-input-placeholder { @content; }
   &::-webkit-input-placeholder { @content; }
 }
+
+// USAGE
+
+/*
+  @inlude input-placeholder {
+    style
+  }
+*/
+

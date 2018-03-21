@@ -1,61 +1,36 @@
-@mixin font-weight($keyword) {
-  font-weight: font-weight($keyword);
+@mixin font-weight($weight) {
+  $weights: (
+          thin: 100,
+          extra-light: 200,
+          ultra-light: 200,
+          light: 300,
+          normal: 400,
+          book: 400,
+          regular: 400,
+          medium: 500,
+          semi-bold: 600,
+          demi-bold: 600,
+          bold: 700,
+          extra-bold: 800,
+          ultra-bold: 900,
+          heavy: 900,
+          black: 900,
+          ultra: 900,
+          ultra-black: 900,
+          extra-ultra: 900
+  );
+
+  $output: $weight;
+  @if map-has-key($weights, $weight) {
+    $output: map-get($weights, $weight);
+  }
+
+  font-weight: $output;
 }
 
-// -- USAGE
-
-// .one-zero-zero {
-//   @include font-weight(thin);
-//   @include font-weight(hairline);
-// }
-//
-// .two-zero-zero {
-//   @include font-weight(extra light);
-//   @include font-weight(extralight);
-//   @include font-weight(ultra light);
-//   @include font-weight(ultralight);
-// }
-//
-// .three-zero-zero {
-//   @include font-weight(light);
-//   @include font-weight(book);
-//   @include font-weight(demi);
-// }
-//
-// .four-zero-zero {
-//   @include font-weight(normal);
-//   @include font-weight(regular);
-// }
-//
-// .five-zero-zero {
-//   @include font-weight(medium);
-// }
-//
-// .six-zero-zero {
-//   @include font-weight(semi bold);
-//   @include font-weight(semibold);
-//   @include font-weight(demi bold);
-//   @include font-weight(demibold);
-// }
-//
-// .seven-zero-zero {
-//   @include font-weight(bold);
-// }
-//
-// .eight-zero-zero {
-//   @include font-weight(extra bold);
-//   @include font-weight(extrabold);
-//   @include font-weight(ultra bold);
-//   @include font-weight(ultrabold);
-// }
-//
-// .nine-zero-zero {
-//   @include font-weight(black);
-//   @include font-weight(heavy);
-//   @include font-weight(fat);
-//   @include font-weight(poster);
-//   @include font-weight(extra black);
-//   @include font-weight(extrablack);
-//   @include font-weight(ultra black);
-//   @include font-weight(ultrablack);
-// }
+// USAGE
+/*
+.some-class {
+  @include font-weight(thin);
+}
+*/

@@ -24,6 +24,7 @@ html {
 
 body {
   margin: 0;
+  @include font-size-map((null: #{$unit} * 2));
 }
 
 /**

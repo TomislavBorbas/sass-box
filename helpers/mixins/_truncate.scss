@@ -6,3 +6,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+// USAGE
+/*
+  @include truncate(250px)
+*/

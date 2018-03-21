@@ -17,3 +17,8 @@
 @mixin skew ($x, $y) {
   @include transform(skew(#{$x}deg, #{$y}deg));
 }
+
+// USAGE
+/*
+  @include transform(translate(50%))
+*/
