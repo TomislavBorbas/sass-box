@@ -1,8 +1,8 @@
 node_modules/
-cheatsheet.html
-guideline.html
-gulpfile.js
-monika.html
-package.json
-package-lock.json
-SpongeBob_SquarePants.png
+/cheatsheet.html
+/guideline.html
+/gulpfile.js
+/monika.html
+/package.json
+/package-lock.json
+/SpongeBob_SquarePants.png

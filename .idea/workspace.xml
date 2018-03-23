@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bd4f524-9466-4932-a437-a8c404a69834" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpongeBob_SquarePants.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/base/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cheatsheet.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/helpers/functions/_fonts.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/helpers/variables/_fonts.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/helpers/variables/_typography-scale.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/monika.html" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/base/_containers.scss" afterPath="$PROJECT_DIR$/base/_containers.scss" />
-      <change beforePath="$PROJECT_DIR$/base/_display.scss" afterPath="$PROJECT_DIR$/base/_display.scss" />
-      <change beforePath="$PROJECT_DIR$/base/_normalize.scss" afterPath="$PROJECT_DIR$/base/_normalize.scss" />
-      <change beforePath="$PROJECT_DIR$/base/_typography.scss" afterPath="$PROJECT_DIR$/base/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_font-face.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_font-face.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_font-weight.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_font-weight.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_fonts.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_fonts.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_hidden.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_hidden.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_placeholders.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_placeholders.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_pseudo.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_pseudo.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_transform.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_transform.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/mixins/_truncate.scss" afterPath="$PROJECT_DIR$/helpers/mixins/_truncate.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/variables/_colors.scss" afterPath="$PROJECT_DIR$/helpers/variables/_colors.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/variables/_containers.scss" afterPath="$PROJECT_DIR$/helpers/variables/_containers.scss" />
-      <change beforePath="$PROJECT_DIR$/helpers/variables/_unit.scss" afterPath="$PROJECT_DIR$/helpers/variables/_unit.scss" />
-      <change beforePath="$PROJECT_DIR$/main.scss" afterPath="$PROJECT_DIR$/main.scss" />
-      <change beforePath="$PROJECT_DIR$/typography/_typography.scss" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/base/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -66,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/guideline.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="750">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -100,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/cheatsheet.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+              <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -110,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/helpers/variables/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +95,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/helpers/variables/_radius.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -316,17 +292,18 @@
       <workItem from="1521623483773" duration="11732000" />
       <workItem from="1521729588970" duration="5380000" />
       <workItem from="1521759157656" duration="2219000" />
-      <workItem from="1521795322837" duration="5739000" />
+      <workItem from="1521795322837" duration="5888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33620000" />
+    <option name="totallyTimeSpent" value="33769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26370135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26370135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -573,7 +550,7 @@
     <entry file="file://$PROJECT_DIR$/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -621,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/guideline.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -633,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -641,7 +618,7 @@
     <entry file="file://$PROJECT_DIR$/helpers/variables/_radius.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -657,7 +634,7 @@
     <entry file="file://$PROJECT_DIR$/cheatsheet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -665,15 +642,15 @@
     <entry file="file://$PROJECT_DIR$/helpers/variables/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
