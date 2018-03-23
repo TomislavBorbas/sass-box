@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<xmp>
+    display
+
+    <style>
+        .display-row {
+            display:flex;
+            flex-direction: row;
+        }
+
+        .display-column {
+            display:flex;
+            flex-direction: column;
+        }
+
+        .flex-vertical-center {
+            align-items: center;
+        }
+
+        .flex-horizontal-center {
+            justify-items: center;
+        }
+
+        .display-inline-block {
+            display: inline-block;
+        }
+
+        .display-block {
+            display:block;
+        }
+
+        .margin-center {
+            margin: 0 auto;
+        }
+
+        @include breakpointMax($mobile) {
+            .vh-fallback {
+                min-height: 30rem; // 480px
+            }
+        }
+
+    </style>
+
+    Icons
+
+    <style>
+        .icon {
+
+        &--small {
+             width: $unit * 2;
+             height: $unit * 2;
+         }
+
+        &--medium {
+             width: $unit * 3;
+             height: $unit * 3;
+         }
+
+        &--large {
+             width: $unit * 4;
+             height: $unit * 4;
+         }
+
+        &--extra-large {
+             width: $unit * 6;
+             height: $unit * 6;
+         }
+        }
+    </style>
+
+    Text align
+
+    <style>
+        .text-left {
+            text-align: left;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+    </style>
+
+    Gutters
+
+    // Used for horizontal gutters
+    $grid-gutter-width-small: $unit * 2;
+    $grid-gutter-width-medium: $unit * 3;
+    $grid-gutter-width-large: $unit * 4;
+
+    // Used for vertical gutters
+    $grid-gutter-height-small: $unit * 2;
+    $grid-gutter-height-medium: $unit * 3;
+    $grid-gutter-height-large: $unit * 4;
+
+    margin: grid-gutter-width-medium;
+
+    typography-scale
+
+    $base-font-size:   $unit * 2;
+    $type-tiny:     12;
+    $type-small:    14;
+    $type-base:     $base-font-size;
+    $type-medium:   19;
+    $type-large:    23;
+    $type-xlarge:   28;
+    $type-xxlarge:  33;
+    $type-xxxlarge: 40;
+
+
+    Breakpoints
+
+    $tablet: 61.25rem; // 980px
+    $mobile: 40rem; //640px
+    $mobile-small: 30rem; // 480px
+
+</xmp>
+
+</body>
+</html>

@@ -26,6 +26,10 @@ ol, ul, dl, li {
   padding: 0;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,4 +39,59 @@ a {
  */
 b, strong {
   font-weight: bold
+}
+
+// Text aligning
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+h1 {
+
+  &--title-primary {
+
+  }
+
+  &--title-secondary {
+
+  }
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.text-with-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+a, h1, h2, h3, h4, p, span, div{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
